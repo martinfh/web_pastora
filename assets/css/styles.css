@@ -1,0 +1,172 @@
+css---
+---
+@import "main";
+
+body {
+	margin: opx;
+}
+.header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.site-title {
+	font-size:40px;
+  	text-decoration: none;
+  	text-align: left;
+  	font-family: 'Cormorant Garamond', serif;
+  	color: white;
+  	background-color: black;
+}
+
+.navigation{
+	transition: all ease;
+	padding-top: 20px;
+	width: 100%;
+	float: right;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	text-decoration: none;
+  	text-align: center;
+  	color: white;
+  	background-color: black;
+}
+
+.navigation-links :hover{
+	transition: all ease;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: none;
+  	color: white;
+  	background-color: black;
+}
+.navigation-links {
+	margin-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+  	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	text-decoration: none;
+  	color: white;
+  	background-color: black;
+}
+
+.navigation-contact {
+	text-decoration:none;
+	float: right;
+	padding-left: 50px;
+  	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+  	color: white;
+  	background-color: black;
+  	font-style: italic;
+}
+
+.navigation-contact :hover {
+	transition: all ease;
+}
+
+.navigation-contactpagetitle {
+	text-decoration:none;
+	float: right;
+	padding-left: 50px;
+  	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+  	color: black;
+  	background-color: #89545E;
+  	font-style: italic;
+}
+
+.navigation-contact-pagetitle :hover{
+	transition: all ease;
+}
+
+
+.navigation-links-contact {
+	margin-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+  	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	text-decoration: none;
+  	color: black;
+  	background-color: #89545E;
+}
+
+.navigation-links-contact :hover {
+	transition: all ease;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: none;
+  	color: black;
+  	background-color: #89545E;
+}
+
+.navigation-contact1 {
+	transition: all ease;
+	padding-top: 20px;
+	width: 100%;
+	float: right;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	text-decoration: none;
+  	text-align: center;
+  	color: black;
+  	background-color: #89545E;
+}
+
+.site-title-contact {
+	font-size:40px;
+  	text-decoration: none;
+  	text-align: left;
+  	font-family: 'Cormorant Garamond', serif;
+  	color: black;
+  	background-color: #89545E;
+}
+
+footer {
+	float: right;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	text-decoration: none; 
+	margin-top: -800px;
+	bottom: 0px;
+	position: fixed;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.about {
+	padding-left: 75px;
+	padding-top: 50px;
+	float:left;
+	width: 40%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+.contact-info {
+	padding-top: 50px;
+	float: right;
+	width: 40%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,7 @@
+<nav id="navbar"  class="navigation-links">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" style="padding-left: 50px; padding-right:50px;text-decoration: none;color: white;">{{ item.name }}</a>
+  {% endfor %}
+</nav>
+  
+
