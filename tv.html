@@ -2,6 +2,98 @@
 layout: default
 title: Tv
 ---
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
 <body style="background-color: black;">
-	
+<div class="box-left">
+		<div id="videoWithJs" class="videoWrapper1">
+			<iframe width="1280" height="300"
+	 src="https://www.youtube.com/embed/Yai1Xg6BaZI?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="content-left">
+			<p>
+				IMPOSTERS Season 2<br>
+				Assistant Set Decorator: PASTORA OROZCO
+			</p>
+		</div>
+	</div>
+	<div class="w3-container">
+		<p>
+		PROJECT: TV SERIES "DRUNK HISTORY MEXICO" SEASON 3<br>
+		Director: Jerry Rodriguez Burckle<br>
+		SET DECORATOR: PASTORA OROZCO
+	</p>
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="assets/images/IMG_20170614_123957.JPG" style="width:60%;display:none">
+  <img class="mySlides" src="assets/images/IMG_20170623_150226_889.JPG" style="width:60%">
+  <img class="mySlides" src="assets/images/IMG_20170624_155342_893.JPG" style="width:60%;display:none">
+  <img class="mySlides" src="assets/images/IMG_20170605_165450.JPG" style="width:60%;display:none">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170614_123957.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170623_150226_889.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170624_155342_893.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170605_165450.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+</div>
+<p>
+	project: MTV REAL WORLD MEXICO 2019<br>
+ART DEPARTMENT
+</p>
+	<div class="w3-container">
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="assets/images/IMG_20170614_123957.JPG" style="width:60%;display:none">
+  <img class="mySlides" src="assets/images/IMG_20170623_150226_889.JPG" style="width:60%">
+  <img class="mySlides" src="assets/images/IMG_20170624_155342_893.JPG" style="width:60%;display:none">
+  <img class="mySlides" src="assets/images/IMG_20170605_165450.JPG" style="width:60%;display:none">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170614_123957.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170623_150226_889.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170624_155342_893.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/IMG_20170605_165450.JPG" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript">
+	function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
 </body>
