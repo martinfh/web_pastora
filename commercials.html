@@ -2,8 +2,110 @@
 layout: default
 title: Commercials
 ---
+
 <body style="background-color: black;">
-	<div style= "margin-left: 100px;">
-		<iframe width="900" height="720" src="https://www.youtube.com/embed/cYq-YrwULC8?&autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="box-left">
+		<div id="videoWithJs" class="videoWrapper1">
+			<iframe width="1280" height="300"
+	 src="https://www.youtube.com/embed/PEBdy1cDiW8?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="content-left">
+			<p>
+				PROJECT: Corona Mx #protejamoselparaiso<br>
+				PRODUCTION DESIGNER: PASTORA OROZCO<br>
+				2019<br>
+				The Maestros
+			</p>
+		</div>
 	</div>
-</body>
+	<div class="box-right">
+		<div id="videoWithJs" class="videoWrapper1">
+			<iframe width="1280" height="300"
+	 src="https://www.youtube.com/embed/qh4WUJQPlaI?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="content-right">
+			<p>
+				PROJECT:  JEEP VOLCÁN<br>
+				DIRECTOR: GONZALO OLIVERO<br>
+				PRODUCTION DESIGNER: PASTORA OROZCO<br>
+				2019
+			</p>
+		</div>
+	</div>
+		<div class="box-right">
+		<div id="videoWithJs" class="videoWrapper1">
+				<iframe  width="1280" height="300"class="video-embed-responsive-item"src="https://www.youtube.com/embed/kXuZ-5xzoYU?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+			<div class="content-right">
+			<p>
+				PROJECT: Pure Leaf Herbal Peach Hibiscus Tea<br> Commercial with Amy Tran<br>
+				SET DECORATOR: PASTORA OROZCO<br>
+				2019
+			</p>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="videoWithJs" class="videoWrapper1">
+				<iframe  width="1280" height="300"class="video-embed-responsive-item"src="https://www.youtube.com/embed/gfkXnbLY28o?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+			<div class="content-right">
+			<p>
+				PROJECT: Find Your Beautiful | Macy’s Spring Fashion.<br>
+				SET DECORATOR: PASTORA OROZCO<br>
+				2019
+			</p>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="videoWithJs" class="videoWrapper1">
+			<iframe width="1280" height="300"
+	 src="https://www.youtube.com/embed/K1NM6HaoyKc?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="content-right">
+			<p>
+				PROJECT: AEROMEXICO "SEGUIMOS ROMPIENDO MITOS"( "WE ARE BREAKING MYTHS" )<br>
+				PRODUCTION DESIGNER: JOAQUIN DE LA RIVA<br>
+				SET DECORATOR: PASTORA OROZCO<br>
+				2017
+			</p>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="videoWithJs" class="videoWrapper1">
+				<iframe  width="1280" height="300"class="video-embed-responsive-item"src="https://www.youtube.com/embed/cYq-YrwULC8?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+			<div class="content-right">
+			<p>
+				PROJECT: TECATE "ASI SOMOS"<br>
+				PRODUCTION DESIGNER: RODRIGO SIFFREDI.<br>
+				2017
+			</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+  sizeTheVideo();
+  $(window).resize(function(){
+    sizeTheVideo();
+  });  
+});
+
+function sizeTheVideo(){
+  // - 1.78 is the aspect ratio of the video
+// - This will work if your video is 1920 x 1080
+// - To find this value divide the video's native width by the height eg 1920/1080 = 1.78
+  var aspectRatio = 1.78;
+  
+    var video = $('#videoWithJs iframe');
+    var videoHeight = video.outerHeight();
+    var newWidth = videoHeight*aspectRatio;
+		var halfNewWidth = newWidth/2;
+    
+  //Define the new width and centrally align the iframe
+  video.css({"width":newWidth+"px","left":"50%","margin-left":"-"+halfNewWidth+"px"});
+}
+	</script>
+</body> 
