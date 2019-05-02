@@ -1,8 +1,8 @@
 - name: Films
-  link: web_pastora/films.html
+  link: /films.html
 - name: Tv
-  link: web_pastora/tv.html
+  link: /tv.html
 - name: Commercials
-  link: web_pastora/commercials.html
+  link: /commercials.html
 - name: Others
-  link: web_pastora/others.html
+  link: /others.html
