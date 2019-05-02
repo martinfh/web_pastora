@@ -16,8 +16,8 @@
 title: Pastora Orozco
 email: martinfarnholchalley@gmail.com
 description: Art director
-baseurl: "/"
-url: "martinfh.github.io/web_pastora"
+baseurl: "web_pastora"
+url: "martinfh.github.io"
 github_username:  martinfh
 # Build settings
 markdown: kramdown
