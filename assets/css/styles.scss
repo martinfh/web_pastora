@@ -172,46 +172,31 @@ footer {
 - If the element is the height and width of the full screen this will still work
 */
 
+.commercials-box {
+	width: 100%;
+
+}
 .box-left {
 	margin-top: 100px;
-	margin-left: 70px;
-	top:80%;
-	left: 80%;
-	padding:30px;
-	box-sizing: border-box;
-	display: flex;
-	 
+	margin-right: 100px;
 }
 
 .box-right {
 	margin-top: 50px;
 	margin-left: 70px;
-	top:80%;
-	left: 80%;
-	padding:30px;
-	box-sizing: border-box;
-	display: flex;
-	 
 }
 
-.videoWrapper1 {
-	display: flex;
+.video {
 	margin-top: 30px;
-	margin-left: 50px;
-	position:relative;
 	z-index: -1;
 	width: 700px;
-	flex: 0 0 700px;
-}
-
- iframe {
-
 }
 
 .content-left p {
 	margin-top: 30px;
+	margin-left: 50px;
 	color: white;
-	width: 500px;
+	width: 400px;
 	font-size: 13px;
 	font-family: 'IBM Plex Mono', monospace;
 
@@ -219,8 +204,9 @@ footer {
 
 .content-right p {
 	margin-top: 30px;
+	margin-left: 50px;
 	color: white;
-	width: 500px;
+	width: 400px;
 	font-size: 13px;
 	font-family: 'IBM Plex Mono', monospace;
 }
@@ -320,5 +306,42 @@ footer {
   from {opacity: .4}
   to {opacity: 1}
 }
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+
+.videoWrapper2 {
+	margin-top: -50px;
+}
+
+.index-video-box {
+	width: 100%;
+}
+
+.index-video {
+	margin-top: -400px;
+	width: 100%;
+}
+
+video {
+	
+	overflow: hidden;
+}
+
+
+
+
+
 
 
