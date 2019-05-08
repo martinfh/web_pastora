@@ -286,10 +286,11 @@ body {
   width: 100%; }
 
 .site-title {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   text-align: left;
   font-family: 'Assistant', sans-serif;
+  font-style: light;
   color: white;
   background-color: black; }
 
@@ -299,6 +300,7 @@ body {
   height: 160px;
   float: right;
   font-family: 'Assistant', sans-serif;
+  font-style: light;
   font-size: 20px;
   text-decoration: none;
   text-align: center;
@@ -324,9 +326,10 @@ body {
   padding-top: 30px;
   width: 100%;
   font-family: 'Assistant', sans-serif;
+  font-style: extra-light;
   font-size: 15px;
   text-decoration: none;
-  color: white;
+  color: grey;
   background-color: black; }
 
 .navigation-contact {
@@ -393,7 +396,7 @@ body {
   background-color: #89545E; }
 
 .site-title-contact {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   text-align: left;
   font-family: 'Assistant', sans-serif;
@@ -449,20 +452,20 @@ footer {
 .content-left p {
   margin-top: 30px;
   margin-left: 50px;
-  color: white;
+  color: grey;
   width: 400px;
   font-size: 13px;
   font-family: 'Assistant', sans-serif;
-  font-variant: lighter; }
+  font-style: extra-light; }
 
 .content-right p {
   margin-top: 30px;
   margin-left: 50px;
-  color: white;
+  color: grey;
   width: 400px;
   font-size: 13px;
   font-family: 'Assistant', sans-serif;
-  font-variant: lighter; }
+  font-style: extra-light; }
 
 /* Slideshow container */
 .slideshow-container {

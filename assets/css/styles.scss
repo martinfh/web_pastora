@@ -12,11 +12,11 @@ body {
 }
 
 .site-title {
-	font-size:20px;
+	font-size:25px;
   	text-decoration: none;
   	text-align: left;
   	font-family: 'Assistant', sans-serif;
-
+  	font-style: light;
   	color: white;
   	background-color: black;
 }
@@ -27,6 +27,7 @@ body {
 	height:160px;
 	float: right;
 	font-family: 'Assistant', sans-serif;
+	font-style: light;
 	font-size: 20px;
 	text-decoration: none;
   	text-align: center;
@@ -53,9 +54,10 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
 	padding-top: 30px;
   	width: 100%;
 	font-family: 'Assistant', sans-serif;
+	font-style: extra-light;
 	font-size: 15px;
 	text-decoration: none;
-  	color: white;
+  	color: grey;
   	background-color: black;
 }
 
@@ -131,7 +133,7 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
 }
 
 .site-title-contact {
-	font-size:20px;
+	font-size:25px;
   	text-decoration: none;
   	text-align: left;
   	font-family: 'Assistant', sans-serif;
@@ -196,22 +198,22 @@ footer {
 .content-left p {
 	margin-top: 30px;
 	margin-left: 50px;
-	color: white;
+	color: grey;
 	width: 400px;
 	font-size: 13px;
 	font-family: 'Assistant', sans-serif;
-	font-variant: lighter;
+	font-style: extra-light;
 
 }
 
 .content-right p {
 	margin-top: 30px;
 	margin-left: 50px;
-	color: white;
+	color: grey;
 	width: 400px;
 	font-size: 13px;
 	font-family: 'Assistant', sans-serif;
-	font-variant: lighter;
+	font-style: extra-light;
 }
 
 
