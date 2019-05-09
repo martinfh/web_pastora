@@ -289,7 +289,7 @@ body {
   font-size: 30px;
   text-decoration: none;
   text-align: left;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: light;
   color: white;
   background-color: black; }
@@ -298,7 +298,7 @@ body {
   width: 100%;
   height: 160px;
   float: right;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: light;
   font-size: 20px;
   text-decoration: none;
@@ -307,11 +307,10 @@ body {
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, black 30%); }
 
 .navigation-links :hover {
-  transition: all 0.1s ease;
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: italic;
   font-size: 15px;
   text-decoration: none;
@@ -323,7 +322,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: extra-light;
   font-size: 15px;
   text-decoration: none;
@@ -335,7 +334,7 @@ body {
   float: right;
   padding-left: 50px;
   width: 100%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   color: white;
   background-color: black;
@@ -349,7 +348,7 @@ body {
   float: right;
   padding-left: 50px;
   width: 100%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   color: black;
   background-color: #89545E;
@@ -364,18 +363,17 @@ body {
   padding-right: 50px;
   margin-top: -20px;
   width: 100%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 15px;
   text-decoration: none;
   color: black;
   background-color: #89545E; }
 
 .navigation-links-contact :hover {
-  transition: all ease;
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: italic;
   font-size: 15px;
   text-decoration: none;
@@ -386,7 +384,7 @@ body {
   padding-top: 20px;
   width: 100%;
   float: right;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   text-decoration: none;
   text-align: center;
@@ -397,13 +395,13 @@ body {
   font-size: 30px;
   text-decoration: none;
   text-align: left;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   color: black;
   background-color: #89545E; }
 
 footer {
   float: right;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   text-decoration: none;
   margin-top: -800px;
@@ -417,14 +415,14 @@ footer {
   padding-top: 50px;
   float: left;
   width: 40%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 15px; }
 
 .contact-info {
   padding-top: 50px;
   float: right;
   width: 40%;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 15px; }
 
 /*
@@ -453,7 +451,7 @@ footer {
   color: grey;
   width: 400px;
   font-size: 13px;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: extra-light; }
 
 .content-right p {
@@ -462,7 +460,7 @@ footer {
   color: grey;
   width: 400px;
   font-size: 13px;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-style: extra-light; }
 
 /* Slideshow container */
