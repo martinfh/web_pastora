@@ -6,13 +6,14 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">﻿
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Assistant:light,extra-light|Tajawal:light,extra-light|Julius+Sans+One|Major+Mono+Display|" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
   	<div class="header w3-animate-opacity">
       <header>
 	<div class="navigation">
 		<a class= "site-title" style = "color: white; text-decoration: none;float: left;  text-align: right; padding-left: 30px; line-height: 80%; margin-top: 10px; 
- " href="/">Pastora Orozco<br><i style="font-size: 20px;font-style: extra-light; color: grey;">Art Director</i></a>
+ " href="/">Pastora Orozco<br><p style="font-size: 20px;font-style: extra-light; color: grey;">Art Department</p></a>
 		<nav id="navbar"  class="navigation-links">
   
     <a href="/films.html" style="padding-left: 50px; padding-right:50px;text-decoration: none;">Films</a>
@@ -28,7 +29,7 @@
 
 
 		<div class="navigation-contact">
-		<a href="contact.html" style="float:right; color:white;font-size: 25px;margin-right: 50px; margin-top: -50px; text-decoration: none; font-style: light;">INFO</a>
+		<a href="contact.html" style="float:right; color:white;font-size: 25px;margin-right: 50px; margin-top: -95px; text-decoration: none; font-style: light;">INFO</a>
 	</div>
 	</div>
 </header>
@@ -40,54 +41,13 @@
 <body style="background-color: black;">
 	<a href="mailto: pastora.orozco@gmail.com">
 		<img class="w3-animate-opacity"style= " float:right; position:fixed;width: 80px; bottom:0px;right: 30px; padding-bottom: 30px;padding-right: 20px;"src="assets/images/sobre-mail-pastora.png"></a>
-		<div class="index-videos-box">
-			<video autoplay loop muted class="index-video" poster="video.jpg" style="margin-top: -300px;">
-	    		<source src="assets/images/y2mate.com%20-%20jeep_volcan_qh4WUJQPlaI_360p.mp4" type="video/mp4">
-	  		</video>
-		
-	    	<img class="index-video" src="assets/images/film-pics/a89c538d-f48c-4e7c-a9a0-e31c2f5980ba.JPG">
-
-	  		<video autoplay loop muted class="index-video" poster="video.jpg">
-				 <source src="assets/images/Find%20Your%20Beautiful%20%7C%20Macy%E2%80%99s%20Spring%20Fashion%202019.mp4">
-					Your browser does not support the video tag.
-			</video>
-	  
-	    	<img class="index-video" src="assets/images/IMG_20170623_150226_889.JPG">
-
-	  		 <video autoplay loop muted class="index-video" poster="video.jpg">
-				<source src="assets/images/y2mate.com%20-%20c_tangana_mala_mujer_video_oficial_nsm4ReJaED0_720p.mp4">
-					Your browser does not support the video tag.
-			</video>
-
-			 <img class="index-video" src="assets/images/film-pics/6881fbfe-fbff-4edb-b678-c73944482077.JPG">
-
-	  		 <video autoplay loop muted class="index-video" poster="video.jpg">
-				<source src="assets/images/y2mate.com%20-%20en_aeromexico_seguimos_rompiendo_mitos_K1NM6HaoyKc_360p.mp4">
-					Your browser does not support the video tag.
-			</video>
-
-			<img class="index-video" src="assets/images/IMG_20170624_155342_893.JPG" >
-
-			 <video autoplay loop muted class="index-video" poster="video.jpg">
-				<source src="assets/images/En%20este%20%23Di%CC%81aDeLaTierra%20%F0%9F%8C%8E%23ProtejamosElParai%CC%81so%20%F0%9F%8C%8A%E2%98%80%F0%9F%8C%85.mp4">
-					Your browser does not support the video tag.
-			</video>
-
-			 <video autoplay loop muted class="index-video" poster="video.jpg" >
-				<source src="assets/images/tecate.mp4">
-					Your browser does not support the video tag.
-			</video>
-			
-			<video autoplay loop muted class="index-video" poster="video.jpg" >
-				<source src="assets/images/y2mate.com%20-%20imposters_season_2_trailer_1_new_2018_mystery_tv_series_hd_Yai1Xg6BaZI_360p.mp4">
-					Your browser does not support the video tag.
-			</video>
-			<video autoplay loop muted class="index-video" poster="video.jpg">
-				<source src="assets/images/y2mate.com%20-%20pure_leaf_herbal_peach_hibiscus_tea_commercial_with_amy_tran_2019_kXuZ-5xzoYU_360p.mp4">
-					Your browser does not support the video tag.
-			</video>
-			 
-		</div>
+	<ul class="flex-container" style="margin-right: 160px;">
+	<li class="flex-item" ><a href="tv.html"><img src="assets/images/macysrecortada.jpeg" style="height: 600px;"></a></li>
+	<li class="flex-item" ><a href="commercials.html"><img src="assets/images/mtvrecortada.jpg" style="height: 600px;"></a></li>
+	<li class="flex-item" ><a href="commercials.html"><img src="assets/images/portada-corona-index.jpeg" style="height: 600px;"></a></li>
+	<li class="flex-item" ><a href="tv.html"><img src="assets/images/drunkrecortada.JPG" style="height: 600px;"></a></li>
+  <li class="flex-item" ><a href="commercials.html"><img src="assets/images/jeeprecortada.jpeg"style="height: 600px;"></div></a></li>
+</ul>
 </body>
 </html>
 
@@ -172,7 +132,30 @@
   }
 })();
   </script>
-  
+  <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+</script>
   </body>
   <footer class="w3-animate-opacity">
   	<div class="footer-portfolio">
