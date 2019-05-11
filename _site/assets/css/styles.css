@@ -280,6 +280,12 @@ footer {
 body {
   margin: 0px; }
 
+@media screen and (max-width: 767px) {
+  flex-container {
+    margin-left: 20px; }
+
+  .flex-container-content {
+    margin-left: 20px; } }
 /* quick reset */
 * {
   margin: 0;
