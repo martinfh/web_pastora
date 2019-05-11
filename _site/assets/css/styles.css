@@ -480,9 +480,6 @@ body {
   background-color: black;
   font-style: italic; }
 
-.navigation-contact :hover {
-  transition: all ease; }
-
 .navigation-contact {
   text-decoration: none;
   float: right;
