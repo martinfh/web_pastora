@@ -8,6 +8,7 @@ body {
  
 @media screen and (max-width: 767px) {
     .flex-container {
+        max-width: 80% !important; 
         margin-right: 100px !important;
     }
 
