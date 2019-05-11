@@ -281,8 +281,9 @@ body {
   margin: 0px; }
 
 @media screen and (max-width: 767px) {
-  flex-container {
-    margin-left: 20px; }
+  .flex-container {
+    margin-left: 20px;
+    width: 100%; }
 
   .flex-container-content {
     margin-left: 20px; } }
