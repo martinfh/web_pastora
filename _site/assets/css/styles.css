@@ -280,6 +280,9 @@ footer {
 body {
   margin: 0px; }
 
+@viewport {
+  width: device-width;
+  initial-scale: 1; }
 @media screen and (max-width: 767px) {
   .flex-container {
     width: auto;
