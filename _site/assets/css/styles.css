@@ -283,11 +283,10 @@ body {
 @media screen and (max-width: 767px) {
   .flex-container {
     margin-left: 20px !important;
-    width: 80%; }
+    width: 650px; }
 
   .flex-container-content {
-    margin-left: 40px !important;
-    width: 80%; } }
+    margin-left: 40px !important; } }
 /* quick reset */
 * {
   margin: 0;
