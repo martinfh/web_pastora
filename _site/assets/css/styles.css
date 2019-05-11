@@ -282,8 +282,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .flex-container {
-    margin-left: 20px !important;
-    width: 650px; }
+    margin-left: 50px;
+    margin-right: 50px; }
 
   .flex-container-content {
     margin-left: 40px !important; } }
@@ -327,7 +327,8 @@ body {
   justify-content: flex-start;
   width: 1200px;
   margin-top: 160px;
-  margin-left: 70px; }
+  margin-left: 50px;
+  margin-right: 50px; }
 
 .flex-item {
   flex-direction: row-reverse;
