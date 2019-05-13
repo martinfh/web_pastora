@@ -285,7 +285,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
-    width: auto;
+    width: 500px;
     margin-top: 160px;
     margin-left: 50px;
     margin-right: 65px; } }
