@@ -285,7 +285,9 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    width: 800px; } }
+    width: 850px;
+    margin-top: 160px;
+    margin-left: 50px; } }
 /* quick reset */
 * {
   margin: 0;
