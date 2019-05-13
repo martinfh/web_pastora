@@ -288,16 +288,7 @@ body {
     width: 500px;
     margin-top: 160px;
     margin-left: 50px;
-    margin-right: 50px; }
-
-  .flex-item {
-    flex-direction: row-reverse;
-    float: right;
-    max-width: 200px;
-    height: 600px;
-    overflow: hidden;
-    padding-right: 10px;
-    padding-left: 10px; } }
+    margin-right: 50px; } }
 /* quick reset */
 * {
   margin: 0;
@@ -336,7 +327,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
-  width: 900px;
+  width: 800px;
   margin-top: 160px;
   margin-left: 250px;
   margin-right: 50px; }
