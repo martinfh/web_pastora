@@ -18,6 +18,16 @@ body {
     margin-right: 50px;
 
   }
+  .flex-item {
+  flex-direction: row-reverse;
+  float: right;
+  max-width: 200px;
+  height: 600px;
+  overflow: hidden;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
 
 }
 /* quick reset */
