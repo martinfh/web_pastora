@@ -280,10 +280,9 @@ footer {
 body {
   margin: 0px; }
 
-@media screen and (max-width: 767px) {
+@media (min-width: 1300px) {
   .flex-container {
-    width: auto;
-    margin-right: 100px !important; }
+    width: auto; }
 
   .flex-container-content {
     width: auto;
