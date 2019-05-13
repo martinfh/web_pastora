@@ -285,7 +285,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    width: 850px;
+    width: 800px;
     margin-top: 160px;
     margin-left: 50px; } }
 /* quick reset */
@@ -328,7 +328,7 @@ body {
   justify-content: center;
   width: 850px;
   margin-top: 160px;
-  margin-left: 250px; }
+  margin-left: 20%; }
 
 .flex-item {
   flex-direction: row-reverse;
