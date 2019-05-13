@@ -280,15 +280,20 @@ footer {
 body {
   margin: 0px; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 650px) {
   .flex-content {
-    margin-right: 100px;
-    width: 60% !important; } }
+    margin-right: 100px; } }
 /* quick reset */
 * {
   margin: 0;
   padding: 0;
   border: 0; }
+
+.wrapper-flex {
+  width: auto;
+  max-width: auto;
+  padding: 0 1em;
+  margin: 9px; }
 
 /* relevant styles */
 .img__wrap {
