@@ -9,15 +9,15 @@ body {
 @media only screen and (max-width: 650px) {
   
     .flex-container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    width: 500px;
-    margin-top: 160px;
-    margin-left: 50px;
-    margin-right: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 800px;
+  margin-top: 160px;
+  margin-left:50px;
+  margin-right: 50px;
 
-  }
+}
 
 
 }
@@ -69,10 +69,10 @@ body {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-start;
-	width: 800px;
+	width: 850px;
 	margin-top: 160px;
-	margin-left:250px;
-  margin-right: 50px;
+	margin-left:280px;
+  margin-right: 40px;
 
 }
 
