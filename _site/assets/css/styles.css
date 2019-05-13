@@ -295,12 +295,6 @@ body {
   padding: 0;
   border: 0; }
 
-.wrapper-flex {
-  width: auto;
-  max-width: auto;
-  padding: 0 1em;
-  margin: 9px; }
-
 /* relevant styles */
 .img__wrap {
   position: relative;
