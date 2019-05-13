@@ -336,9 +336,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
-  width: 1200px;
+  width: 900px;
   margin-top: 160px;
-  margin-left: 50px;
+  margin-left: 250px;
   margin-right: 50px; }
 
 .flex-item {
