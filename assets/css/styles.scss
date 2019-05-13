@@ -11,7 +11,7 @@ body {
     .flex-container {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-start;
+  justify-content: center;
   width: 800px;
 }
 
@@ -64,11 +64,11 @@ body {
 .flex-container {
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: flex-start;
+	justify-content: center;
 	width: 850px;
 	margin-top: 160px;
-	padding-left:100px;
-  padding-right:100px;
+  margin-left: 250px;
+  
 
 }
 
@@ -80,6 +80,7 @@ body {
 	overflow: hidden;
 	padding-right: 10px;
 	padding-left: 10px;
+
 	
 }
 
