@@ -280,14 +280,6 @@ footer {
 body {
   margin: 0px; }
 
-@media screen and (max-width: 600px) {
-  .flex-container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    width: 800px;
-    margin-top: 160px;
-    margin-right: 100px !important; } }
 /* quick reset */
 * {
   margin: 0;
@@ -468,7 +460,7 @@ body {
 .navigation-links {
   margin-right: 50px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 90px;
   width: 100%;
   font-family: 'Julius Sans One', sans-serif;
   font-style: extra-light;
