@@ -68,17 +68,16 @@ body {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
-	width: 850px;
+	width: 100%;
 	margin-top: 160px;
-  margin-left: 17%;
-  margin-right: 20%;
   
 
 }
 
 .flex-item {
+  text-align: center;
 	flex-direction: row-reverse;
-	float: right;
+	display: inline-block;
 	max-width: 220px;
 	height: 600px;
 	overflow: hidden;
