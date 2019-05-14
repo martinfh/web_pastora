@@ -280,14 +280,14 @@ footer {
 body {
   margin: 0px; }
 
-@media only screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .flex-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     width: 800px;
     margin-top: 160px;
-    margin-right: 20%; } }
+    margin-right: 20% !important; } }
 /* quick reset */
 * {
   margin: 0;
