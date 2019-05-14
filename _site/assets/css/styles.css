@@ -447,7 +447,7 @@ body {
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, black 30%); }
 
 .navigation-links :hover {
-  width: 85%;
+  width: 80%;
   font-family: 'Julius Sans One', sans-serif;
   font-style: italic;
   font-size: 15px;
@@ -457,7 +457,7 @@ body {
 
 .navigation-links {
   padding-left: 30px;
-  width: 85%;
+  width: 80%;
   font-family: 'Julius Sans One', sans-serif;
   font-style: extra-light;
   font-size: 15px;
@@ -495,7 +495,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   margin-top: -20px;
-  width: 85%;
+  width: 80%;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 15px;
   text-decoration: none;
@@ -505,7 +505,7 @@ body {
 .navigation-links-contact :hover {
   padding-left: 50px;
   padding-right: 50px;
-  width: 85%;
+  width: 80%;
   font-family: 'Julius Sans One', sans-serif;
   font-style: italic;
   font-size: 15px;
