@@ -241,8 +241,8 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
   	width: 100%;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 20px;
-  	color: black;
-  	background-color: #89545E;
+  	color: white;
+  	background-color: black;
   	font-style: italic;
 }
 
@@ -260,8 +260,8 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 15px;
 	text-decoration: none;
-  	color: black;
-  	background-color: #89545E;
+  	color: white;
+  	background-color: black;
 }
 
 .navigation-links-contact :hover {
@@ -273,8 +273,8 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
 	font-style: italic;
 	font-size: 15px;
 	text-decoration: none;
-  	color: black;
-  	background-color: #89545E;
+  	color: white;
+  	background-color: black;
 }
 
 .navigation-contact1 {
@@ -285,8 +285,8 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
 	font-size: 20px;
 	text-decoration: none;
   	text-align: center;
-  	color: black;
-  	background-color: #89545E;
+  	color: white;
+  	background-color: black;
 }
 
 .site-title-contact {
@@ -294,8 +294,8 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%)
   	text-decoration: none;
   	text-align: left;
   	font-family: 'Julius Sans One', sans-serif;
-  	color: black;
-  	background-color: #89545E;
+  	color: white;
+  	background-color: black;
 }
 
 footer {
@@ -311,6 +311,7 @@ footer {
 }
 
 .about {
+  color: white;
 	padding-left: 75px;
 	padding-top: 50px;
 	float:left;
@@ -320,6 +321,7 @@ footer {
 }
 
 .contact-info {
+  color: white;
 	padding-top: 50px;
 	float: right;
 	width: 40%;

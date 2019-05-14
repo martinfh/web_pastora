@@ -487,8 +487,8 @@ body {
   width: 100%;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
-  color: black;
-  background-color: #89545E;
+  color: white;
+  background-color: black;
   font-style: italic; }
 
 .navigation-contact-pagetitle :hover {
@@ -503,8 +503,8 @@ body {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 15px;
   text-decoration: none;
-  color: black;
-  background-color: #89545E; }
+  color: white;
+  background-color: black; }
 
 .navigation-links-contact :hover {
   padding-left: 50px;
@@ -514,8 +514,8 @@ body {
   font-style: italic;
   font-size: 15px;
   text-decoration: none;
-  color: black;
-  background-color: #89545E; }
+  color: white;
+  background-color: black; }
 
 .navigation-contact1 {
   padding-top: 20px;
@@ -525,16 +525,16 @@ body {
   font-size: 20px;
   text-decoration: none;
   text-align: center;
-  color: black;
-  background-color: #89545E; }
+  color: white;
+  background-color: black; }
 
 .site-title-contact {
   font-size: 30px;
   text-decoration: none;
   text-align: left;
   font-family: 'Julius Sans One', sans-serif;
-  color: black;
-  background-color: #89545E; }
+  color: white;
+  background-color: black; }
 
 footer {
   float: right;
@@ -548,6 +548,7 @@ footer {
   padding-bottom: 10px; }
 
 .about {
+  color: white;
   padding-left: 75px;
   padding-top: 50px;
   float: left;
@@ -556,6 +557,7 @@ footer {
   font-size: 15px; }
 
 .contact-info {
+  color: white;
   padding-top: 50px;
   float: right;
   width: 40%;
