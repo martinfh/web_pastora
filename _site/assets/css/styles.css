@@ -447,7 +447,7 @@ body {
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, black 30%); }
 
 .navigation-links :hover {
-  width: 80%;
+  width: 100%;
   font-family: 'Julius Sans One', sans-serif;
   font-style: italic;
   font-size: 15px;
@@ -457,7 +457,7 @@ body {
 
 .navigation-links {
   padding-left: 30px;
-  width: 80%;
+  width: 100%;
   font-family: 'Julius Sans One', sans-serif;
   font-style: extra-light;
   font-size: 15px;
